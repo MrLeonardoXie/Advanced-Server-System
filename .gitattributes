@@ -1,7 +1,1 @@
-# 忽略 webbench 目录
-test_pressure/webbench-1.5/** linguist-vendored
 
-# 忽略所有 man 手册 / Roff 格式
-*.1 linguist-vendored
-*.man linguist-vendored
-*.roff linguist-vendored
