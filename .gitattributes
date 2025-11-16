@@ -1,5 +1,7 @@
-# 把 webbench 整个目录标记为“第三方/外部代码”，不参与语言统计
-test_pressure/webbench-1.5/* linguist-vendored
+# 忽略 webbench 目录
+test_pressure/webbench-1.5/** linguist-vendored
 
-# 如果有别的第三方目录也可以一起加，比如：
-# third_party/* linguist-vendored
+# 忽略所有 man 手册 / Roff 格式
+*.1 linguist-vendored
+*.man linguist-vendored
+*.roff linguist-vendored
